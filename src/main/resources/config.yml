@@ -1,0 +1,29 @@
+# 是否启动原版物品冷却效果，类似于魔影珍珠的冷却效果
+# 如果使用该功能，物品的ID不能一样，只有是一样的都会又冷却效果
+enable-item-cooldown: true
+
+# 是否开启插件调试功能，也就看看物品的类型
+enable-debug: false
+
+# 消息，如不需要，请填写none
+message:
+  # 使用药水的消息
+  use: "&6[&7MyPotion&6] &7你成功使用了药剂 &a{0} &7药水冷却时间 &a{1} &7秒，效果持续时间 &a{2} &7秒！"
+  # 使用药水的正在冷却中的消息
+  cooldown: "&6[&7MyPotion&6] &7药剂 &a{0} &7冷却中,当前还剩 &a{1} &7秒"
+  # 使用药水的属性加成效果结束的消息
+  effect-end: "&6[&7MyPotion&6] &7药剂 &a{0} &7的加成效果已结束"
+
+# 下列方块不使用药水，自行添加
+# 例如点击工作台时，就不使用药水，那就吧工作台的ID添加下去
+interact-block:
+  - DISPENSER
+  - DROPPER
+  - TRAPPED_CHEST
+  - CHEST
+  - WORKBENCH
+  - FURNACE
+  - JUKEBOX
+  - ENDER_CHEST
+  - ENCHANTMENT_TABLE
+  - WHITE_SHULKER_BOX

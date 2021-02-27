@@ -1,0 +1,6 @@
+name: MyPotion
+main: gitee.xzcxrj.mypotion.MyPotion
+version: 1.0.0-bate
+author: DogLong
+softdepend:
+  - AttributeHook

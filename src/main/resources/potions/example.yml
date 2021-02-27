@@ -1,0 +1,12 @@
+potion1:
+  # 检测名称
+  display: "&c力量药水"
+  # 药水的冷却时间
+  cooldown: 60
+  # 药水的属性效果
+  attribute:
+    # 属性的持续时间
+    continue: 60
+    # 属性列表
+    list:
+      - "攻击力: 50"
